@@ -57,13 +57,13 @@ section {
   .wrapper h1 img {
     height: 30px;
     padding: 30px;
-    left: 42%;
+    left: 38%;
     bottom: 2%;
-    /* animation: imgUpDownXS 10s 4s infinite; */
+    animation: imgUpDownXS 10s 4s infinite;
   }
   .wrapper h1 span {
     top: -217px;
-    /* animation: spanUpDownXS 10s 4s infinite; */
+    animation: spanUpDownXS 10s 4s infinite;
   }
 }
 
@@ -126,27 +126,27 @@ section {
 
 @keyframes imgUpDownXS {
   0% {
-    left: 42%;
+    left: 38%;
     bottom: 2%;
   }
   20% {
-    left: 40%;
+    left: 36%;
     bottom: 4%;
   }
   40% {
-    left: 40%;
+    left: 36%;
     bottom: 4%;
   }
   60% {
-    left: 38%;
+    left: 32%;
     bottom: 40%;
   }
   80% {
-    left: 38%;
+    left: 32%;
     bottom: 40%;
   }
   100% {
-    left: 42%;
+    left: 38%;
     bottom: 2%;
   }
 }
