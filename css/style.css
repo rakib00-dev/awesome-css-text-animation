@@ -59,11 +59,11 @@ section {
     padding: 30px;
     left: 38%;
     bottom: 2%;
-    animation: imgUpDownXS 10s 4s infinite;
+    /* animation: imgUpDownXS 10s 4s infinite; */
   }
   .wrapper h1 span {
     top: -217px;
-    animation: spanUpDownXS 10s 4s infinite;
+    /* animation: spanUpDownXS 10s 4s infinite; */
   }
 }
 
@@ -78,6 +78,20 @@ section {
 @media (min-width: 768px) {
   .wrapper h1 {
     font-size: 60px;
+    gap: 30px;
+    line-height: 60px;
+    height: 120px;
+  }
+  .wrapper h1 img {
+    height: 40px;
+    padding: 30px;
+    left: 42%;
+    bottom: -2%;
+    animation: imgUpDownMD 10s 4s infinite;
+  }
+  .wrapper h1 span {
+    top: -304px;
+    animation: spanUpDownMD 10s 4s infinite;
   }
 }
 
@@ -148,6 +162,55 @@ section {
   100% {
     left: 38%;
     bottom: 2%;
+  }
+}
+
+/* medium screen - md */
+@keyframes spanUpDownMD {
+  0% {
+    top: -304px;
+  }
+  20% {
+    top: 0;
+  }
+  40% {
+    top: 0;
+  }
+  60% {
+    top: -154px;
+  }
+  80% {
+    top: -154px;
+  }
+  100% {
+    top: -304px;
+  }
+}
+
+@keyframes imgUpDownMD {
+  0% {
+    left: 42%;
+    bottom: -10%;
+  }
+  20% {
+    left: 40%;
+    bottom: -10%;
+  }
+  40% {
+    left: 40%;
+    bottom: -10%;
+  }
+  60% {
+    left: 36%;
+    bottom: 38%;
+  }
+  80% {
+    left: 36%;
+    bottom: 38%;
+  }
+  100% {
+    left: 42%;
+    bottom: -10%;
   }
 }
 
