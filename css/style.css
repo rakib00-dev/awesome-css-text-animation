@@ -59,11 +59,11 @@ section {
     padding: 30px;
     left: 38%;
     bottom: 2%;
-    /* animation: imgUpDownXS 10s 4s infinite; */
+    animation: imgUpDownXS 10s 4s infinite;
   }
   .wrapper h1 span {
     top: -217px;
-    /* animation: spanUpDownXS 10s 4s infinite; */
+    animation: spanUpDownXS 10s 4s infinite;
   }
 }
 
