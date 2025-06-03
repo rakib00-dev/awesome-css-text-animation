@@ -9,6 +9,7 @@ section {
   justify-content: center;
   align-items: center;
   width: 100%;
+  /* max-width: 80rem; */
   height: 100vh;
 }
 
@@ -98,20 +99,20 @@ section {
 /* lg */
 @media (min-width: 1024px) {
   .wrapper h1 {
-    font-size: 90px;
+    font-size: 70px;
     gap: 150px;
-    line-height: 80px;
-    height: 205px;
+    line-height: 70px;
+    height: 180px;
   }
   .wrapper h1 img {
-    height: 70px;
-    padding: 40px;
+    height: 60px;
+    padding: 30px;
     left: 42%;
     bottom: 2%;
     animation: imgUpDownLG 10s 4s infinite;
   }
   .wrapper h1 span {
-    top: -617px;
+    top: -573px;
     animation: spanUpDownLG 10s 4s infinite;
   }
 }
@@ -217,7 +218,7 @@ section {
 /* large screen - lg */
 @keyframes spanUpDownLG {
   0% {
-    top: -617px;
+    top: -573px;
   }
   20% {
     top: 0;
@@ -226,13 +227,13 @@ section {
     top: 0;
   }
   60% {
-    top: -304px;
+    top: -288px;
   }
   80% {
-    top: -304px;
+    top: -288px;
   }
   100% {
-    top: -617px;
+    top: -573px;
   }
 }
 
@@ -250,11 +251,11 @@ section {
     bottom: 4%;
   }
   60% {
-    left: 38%;
+    left: 36%;
     bottom: 40%;
   }
   80% {
-    left: 38%;
+    left: 36%;
     bottom: 40%;
   }
   100% {
