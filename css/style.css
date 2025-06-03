@@ -45,8 +45,6 @@ section {
 .wrapper h1 span {
   position: relative;
   transition: 0.3s ease-in-out;
-  /* transform: translateY(-12px); */
-  /* top: -248px; */
   top: -248px;
   animation: spanUpDown 10s 4s infinite;
 }
