@@ -104,8 +104,8 @@ section {
     height: 205px;
   }
   .wrapper h1 img {
-    height: 90px;
-    padding: 30px;
+    height: 70px;
+    padding: 40px;
     left: 42%;
     bottom: 2%;
     animation: imgUpDownLG 10s 4s infinite;
