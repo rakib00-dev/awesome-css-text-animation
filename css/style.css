@@ -22,21 +22,24 @@ section {
   position: relative;
   width: 100%;
   display: grid;
-  gap: 30px;
-  height: 105px;
+  gap: 150px;
+  height: 205px;
   overflow: hidden;
   padding: 5px 0;
   transition: 0.3s ease-in-out;
   /* border: 1px solid; */
   text-transform: uppercase;
-  font-size: 80px;
+  font-size: 90px;
+  line-height: 80px;
+  font-weight: 900;
 }
 
 .wrapper h1 img {
   position: absolute;
   height: 90px;
-  left: 40%;
-  bottom: 0%;
+  padding: 30px;
+  left: 42%;
+  bottom: 2%;
   transition: 0.3s ease-in-out;
   animation: imgUpDown 10s 4s infinite;
   z-index: 2;
@@ -45,13 +48,13 @@ section {
 .wrapper h1 span {
   position: relative;
   transition: 0.3s ease-in-out;
-  top: -248px;
+  top: -617px;
   animation: spanUpDown 10s 4s infinite;
 }
 
 @keyframes spanUpDown {
   0% {
-    top: -248px;
+    top: -617px;
   }
   20% {
     top: 0;
@@ -60,39 +63,50 @@ section {
     top: 0;
   }
   60% {
-    top: -127px;
+    top: -304px;
   }
   80% {
-    top: -127px;
+    top: -304px;
   }
   100% {
-    top: -248px;
+    top: -617px;
   }
 }
 
 @keyframes imgUpDown {
   0% {
-    left: 40%;
-    bottom: 0%;
+    left: 42%;
+    bottom: 2%;
   }
   20% {
-    left: 38%;
-    bottom: -4%;
+    left: 40%;
+    bottom: 4%;
   }
   40% {
-    left: 38%;
-    bottom: -4%;
+    left: 40%;
+    bottom: 4%;
   }
   60% {
-    left: 34%;
+    left: 38%;
     bottom: 40%;
   }
   80% {
-    left: 34%;
+    left: 38%;
     bottom: 40%;
   }
   100% {
-    left: 40%;
-    bottom: 0%;
+    left: 42%;
+    bottom: 2%;
   }
+}
+
+/* Responsive breakpoints */
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
 }
