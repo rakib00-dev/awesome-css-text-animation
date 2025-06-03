@@ -25,7 +25,7 @@ section {
   gap: 30px;
   height: 105px;
   overflow: hidden;
-  padding: 5px;
+  padding: 5px 0;
   transition: 0.3s ease-in-out;
   /* border: 1px solid; */
   text-transform: uppercase;
@@ -38,7 +38,7 @@ section {
   left: 40%;
   bottom: 0%;
   transition: 0.3s ease-in-out;
-  animation: imgUpDown 10s 5s infinite;
+  animation: imgUpDown 10s 4s infinite;
   z-index: 2;
 }
 
@@ -48,7 +48,7 @@ section {
   /* transform: translateY(-12px); */
   /* top: -248px; */
   top: -248px;
-  animation: spanUpDown 10s 5s infinite;
+  animation: spanUpDown 10s 4s infinite;
 }
 
 @keyframes spanUpDown {
